@@ -9,25 +9,25 @@
       ]
     },
     "dotnet-reportgenerator-globaltool": {
-      "version": "4.8.13",
+      "version": "5.1.17",
       "commands": [
         "reportgenerator"
       ]
     },
     "paket": {
-      "version": "6.2.1",
+      "version": "7.2.0",
       "commands": [
         "paket"
       ]
     },
     "fsharp-analyzers": {
-      "version": " 0.10.1",
+      "version": "0.11.0",
       "commands": [
         "fsharp-analyzers"
       ]
     },
     "fantomas": {
-      "version": "5.0.0",
+      "version": "5.2.1",
       "commands": [
         "fantomas"
       ]
