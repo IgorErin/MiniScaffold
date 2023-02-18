@@ -473,7 +473,7 @@ let ``release docs`` ctx =
 
     Git.Staging.stageAll docsDir
     Git.Commit.exec "" (sprintf "Documentation release of version %s" latestEntry.NuGetVersion)
-    if isRelease (ctx.Context.AllExecutingTargets) |> not then
+    if isRelease ctx.Context.AllExecutingTargets |> not then
         // We only want to push if we're only calling "ReleaseDocs" target
         // If we're calling "Release" target, we'll let the "GitRelease" target do the git push
         Git.Branches.push ""
