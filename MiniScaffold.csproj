@@ -13,7 +13,7 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
     <NoDefaultExcludes>true</NoDefaultExcludes> <!-- So nuget will include .files -->
-    <TargetFramework>netstandard0.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <!-- Ignore the "target frameworks don't match" warning because we're not a library package -->
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
