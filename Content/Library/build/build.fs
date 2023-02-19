@@ -717,7 +717,8 @@ let initTargets () =
     "DotnetRestore"
         ==> "CheckFormatCode"
         ==> "DotnetBuild"
-        ==> "FSharpAnalyzers"
+        // The analyzer class library has to target the net6.0 framework
+        // ==> "FSharpAnalyzers"
         ==> "DotnetTest"
         =?> ("GenerateCoverageReport", not disableCodeCoverage)
         ==> "DotnetPack"
