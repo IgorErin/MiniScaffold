@@ -30,6 +30,6 @@ module SayTests =
 
                 Expect.equal
                     subject
-                    "Hello Jean-Luc Picard. You were born on 2305/07/13 and your favorite number is 4. You like Red."
+                    "Hello Jean-Luc Picard. You were born on 2305.07.13 and your favorite number is 4. You like Red."
                     "You didn't say hello"
         ]
